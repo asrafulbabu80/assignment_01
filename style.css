@@ -2,45 +2,53 @@
 *{margin: 0; padding: 0;}
 body{
     font-family: 'Ubuntu', sans-serif;
+    
+}
+section{
+    display: flex;
+    padding-bottom: 50px;
 }
 #intro{
-    display: flex;
-    margin-top: 80px;
-    margin-left: 90px;
-    margin-right: 100px;
-    padding-right: 100px;
+    background-image: url(images/bg01.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.description, .description_img{
+    width: 50%;   
+}
+.description_img img{
+    width: 110%
 }
 #intro h1{
     font-size: 55px;
-    line-height: 75px;
-}
-#intro p{
-    font-size: 20px;
-    margin-bottom: 30px;
-    color: rgb(119, 116, 116);
+    line-height: 80px;
 }
 .color{
     color: orange;
 }
-.first_heading{
-    margin-top: 100px;
+p{
+    font-size: 20px;
+    color: rgb(129, 112, 112);
+    padding-top: 30px;
 }
-.third_heading{
-    margin-bottom: 30px;
+.description{
+    padding-left: 100px;
+    padding-top: 170px;
+    padding-right: 30px;
 }
-.button{
-    text-decoration: none;
-    padding: 10px 40px;
-    color: white;
-    background-image: linear-gradient(orange, tomato);
-    font-weight: 900;
-    border-radius: 10px;
-    
-}
-#intro img{
-    width: 150%;
-    padding-bottom: 20px;
+.description_img{
+    padding-right: 60px;
 }
 .sub_title{
     width: 80%;
+    line-height: 30px;
+    padding-bottom: 30px;
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    color: white;
+    padding: 10px 40px;
+    font-weight: 900;
+    border-radius: 10px;
 }
