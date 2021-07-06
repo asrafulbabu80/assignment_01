@@ -4,7 +4,7 @@ body{
     font-family: 'Ubuntu', sans-serif;
     
 }
-section{
+#intro{
     display: flex;
     padding-bottom: 50px;
 }
@@ -28,7 +28,7 @@ section{
 }
 p{
     font-size: 20px;
-    color: rgb(63, 43, 43);
+    color: hsl(0, 19%, 21%);
     padding-top: 30px;
 }
 .description{
@@ -53,6 +53,10 @@ p{
     border-radius: 10px;
 }
 
+#about{
+    display: flex;
+    padding-bottom: 50px;
+}
 
 #about{
     background-image: url(images/bg02.png);
@@ -77,4 +81,57 @@ p{
     padding-right: 90px;
     padding-left: 100px;
     padding-top: 100px;
+}
+
+
+#recepi h1{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+#recepi span{
+    line-height: 22px;
+    font-weight: 500;
+    color: rgb(63, 43, 43);
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+.new{
+    width: 450px;
+    text-align: center;
+    margin: auto;
+}
+
+
+
+#items{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    overflow: hidden;
+}
+
+.item01{
+    width: 25%;
+    float: left;
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: 2px solid;
+    border-style: none;
+    box-shadow: 5px 0px 20px 0px;
+    margin: auto;
+
+}
+.item01 img{
+    width: 80%;
+   
+}
+.item1{
+    text-align: center;
+    padding: 20px 0px;
+}
+.item2{
+    padding: 0px 30px;
+    padding-bottom: 15px;
 }
