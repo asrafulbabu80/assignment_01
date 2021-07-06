@@ -57,7 +57,7 @@ p{
 #about{
     background-image: url(images/bg02.png);
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: center;
     padding-top: 50px;
 }
 #about h1{
@@ -71,7 +71,7 @@ p{
 }
 .sub_title02{
     line-height: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
 }
 .about_desc{
     padding-right: 90px;
